@@ -56,10 +56,14 @@ oc get pods
 
 oc rsh python-<hash>
 
+chmod +x .s2i/bin/run
+
 python manage.py db init
 python manage.py db migrate
 python manage.py db upgrade
 ```
+
+We need to chmod the run script for the s2i application to start properly
 
 5. Insert sample data in the database
 
