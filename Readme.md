@@ -1,6 +1,6 @@
 # How to use odo to debug a python application on openshift with a postgesql database
 
-## Summary
+## Summary
 
 This project contains the sources for a demo application using python and postgresql to show how to setup and debug a python application with openshift and the odo and oc commands. The debugger we'll be using is ptvsd and Visual Studio Code.
 
@@ -8,7 +8,7 @@ We will setup the application in openshift, deploy a sample database, fill it wi
 
 We will then setup the 
 
-## Prerequisites
+## Prerequisites
 
 1. [vscode](https://code.visualstudio.com/Download)
 2. [git](https://git-scm.com/downloads)
@@ -16,7 +16,7 @@ We will then setup the
 4. [odo](https://github.com/redhat-developer/odo/releases)
 5. Access to an openshift instance (version > 3.10)
 
-## Project creation
+## Project creation
 
 1. Log into Openshift with an empty project
 
