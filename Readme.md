@@ -15,7 +15,7 @@ We will then setup the
 3. [oc](https://github.com/openshift/origin/releases)
 4. [odo](https://github.com/redhat-developer/odo/releases)
 5. Access to an openshift instance with the service catalog and the postgresql-persistent component available (version > 3.10)
-6. An empty python virtualenv
+6. An empty python virtualenv with python 3.6.3
 
 ## Project creation
 
