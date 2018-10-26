@@ -15,10 +15,17 @@ We will then setup the
 3. [oc](https://github.com/openshift/origin/releases)
 4. [odo](https://github.com/redhat-developer/odo/releases)
 5. Access to an openshift instance with the service catalog and the postgresql-persistent component available (version > 3.10)
+6. An empty python virtualenv
 
 ## Project creation
 
 1. Log into Openshift with an empty project
+
+2. Initialize the python virtualenv
+
+```sh
+pip install -r requirements.txt
+```
 
 2. Create the application and the python component with odo
 
@@ -26,7 +33,6 @@ We will then setup the
 odo app create python-test
 
 odo create python
-
 ```
 
 3. Add the postgresql database
