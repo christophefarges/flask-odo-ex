@@ -14,7 +14,7 @@ We will then setup the
 2. [git](https://git-scm.com/downloads)
 3. [oc](https://github.com/openshift/origin/releases)
 4. [odo](https://github.com/redhat-developer/odo/releases)
-5. Access to an openshift instance (version > 3.10)
+5. Access to an openshift instance with the service catalog and the postgresql-persistent component available (version > 3.10)
 
 ## Project creation
 
@@ -93,6 +93,3 @@ oc port-forward python-<pod id> 5678
 ```
 
 Then we can use the "Attach (Remote Debug)" configuration to connect to the application and debug it.
-
-
-
