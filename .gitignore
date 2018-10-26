@@ -1,6 +1,6 @@
 # Created by https://www.gitignore.io/api/python,visualstudiocode
 
-vscode/settings.json
+.vscode/settings.json
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
