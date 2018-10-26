@@ -1,0 +1,1 @@
+insert into tests(mydata) values ("this"),("is"),("a"),("test");
