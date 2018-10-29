@@ -61,14 +61,13 @@ oc get pods
 
 oc rsh python-<hash>
 
+# We need to chmod the run script for the s2i application to start properly
 chmod +x .s2i/bin/run
 
 python manage.py db init
 python manage.py db migrate
 python manage.py db upgrade
 ```
-
-We need to chmod the run script for the s2i application to start properly
 
 5. Insert sample data in the database
 
@@ -91,7 +90,7 @@ Go to the url that has been created and the application should be there
 
 7. Debug the application
 
-We need to connect on port 5678 of the python process running in the pods. To allow that we will forward the 5678 port of the pod to the port 5678 of our local environement
+We need to connect on port 5678 of the python process running in the pods. To allow that we will forward the port 5678 of the pod to the port 5678 of our local environement
 
 ```sh
 oc get pods

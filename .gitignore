@@ -1,6 +1,7 @@
 # Created by https://www.gitignore.io/api/python,visualstudiocode
 
 .vscode/settings.json
+!.s2i/bin/run
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -135,6 +136,7 @@ pip-selfcheck.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
 
 
 # End of https://www.gitignore.io/api/python,visualstudiocode
